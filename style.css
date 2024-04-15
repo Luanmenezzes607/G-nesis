@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:goldenrod;
+    height: 150px;
+    text-align: center;
+}
+
+header> h1{
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+nav{
+    padding-top: 10px;
+}
+
+nav > a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+a:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+
+main{
+    background-color: darkcyan;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 20px;
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+}
+
+h1{
+    color: aliceblue;
+    margin: 10px;
+}
+
+section#prime{
+    margin-bottom: -70px;
+    height: 60vh;
+}
+
+section img{
+    width: 100%;
+    margin: auto;
+}
+
+section#primeira{
+    background-image: url('imagens/wallpaper002.jpg');
+    margin-left: -20px;
+    margin-right: -20px;
+    background-size: cover;
+    background-attachment: fixed; 
+    height: 50vh;
+}
+
+section#terceira{
+    padding-bottom: 30px;
+}
+
+section#terceira > p{
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+section#quarta{
+    background-image: url('imagens/cfb1ec7cb94cbc4766fd459092c91af0.jpg');
+    height: 50vh;
+    margin-left: -20px;
+    margin-right: -20px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+table{
+    border-collapse:collapse;
+    width: 300px;
+    text-align:center;
+    margin: auto;
+}
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: '\2705\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+    margin-top: 10px;
+}
+ol{
+    padding-left: 40px;
+}
+
+#video{
+    background-color: #D91E1E;
+    margin: 10px -20px 0px -20px;
+    position:relative;
+    padding-bottom: 56.25%;
+
+}
+
+iframe{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+  
+}
